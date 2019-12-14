@@ -28,8 +28,8 @@ db = PostgresDb()
 app = Flask(__name__)
 app.secret_key = os.getenv("SECRET_KEY", "jkm-vsnej9l-vm9sqm3:lmve")
 
-app.config["SQLALCHEMY_DATABASE_URI"] = os.getenv("DATABASE_URL", 'postgres://fmasjvreysufdc:412d682250ed844e5870ac10bef7d4e1df78cb0a5a22c20b9e396b496c51efb0@ec2-107-21-108-37.compute-1.amazonaws.com:5432/daocv3uoo1ckhc')
-app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
+#app.config["SQLALCHEMY_DATABASE_URI"] = os.getenv("DATABASE_URL", 'postgres://fmasjvreysufdc:412d682250ed844e5870ac10bef7d4e1df78cb0a5a22c20b9e396b496c51efb0@ec2-107-21-108-37.compute-1.amazonaws.com:5432/daocv3uoo1ckhc')
+#app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
 @app.route('/')
 def hello_world():
@@ -150,5 +150,5 @@ def draw_graph():
 #
 #     return render_template('form_for_country.html', form=form, form_name="New Country", action="insert")
 
-if __name__ == '__main__':
-    app.run()
+# if __name__ == '__main__':
+#     app.run()
