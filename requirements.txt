@@ -18,16 +18,9 @@ html2text==2015.11.4
 itsdangerous==1.1.0
 Jinja2==2.10.3
 joblib==0.14.0
-Keras==2.3.1
-Keras-Applications==1.0.8
-Keras-Preprocessing==1.1.0
 kiwisolver==1.1.0
 Markdown==2.6.5
 MarkupSafe==1.1.1
-matplotlib==3.1.1
-midi2audio==0.1.1
-MIDIUtil==1.2.1
-mido==1.2.9
 numpy==1.17.4
 pandas==0.25.3
 pathtools==0.1.2
